@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Squada+One&display=swap" rel="stylesheet">
+  
+    <title>Teatro dos finais infelizes</title>
+</head>
+<body>
+    
+<main>
+    <div class="passo ativo" id="passo-0">
+        <img src="cenario passo-0.png" alt="">
+        <p>
+        
+        </p>
+        <button class="btn-proximo" data-proximo="heroi 3" id="buttonHeroi">Heroi</button>
+        <button class="btn-proximo" data-proximo="donzela 1" id="buttonDonzela">Donzela</button>
+        <button class="btn-proximo" data-proximo="soberana 2" id="buttonSoberana">Soberana</button>
+    </div>
+
+
+
+    <div class="passo" id="passo-donzela 1">
+        <img src="Donzela igreja.png" alt="">
+        <p>Você é uma donzela. Você vive em um vilarejo pacata, próximo ao castelo de uma soberana demônia assustadora. Dizem que seu destino é ser sequestrada pela soberana, já que você é uma moça jovem e linda. Você pensa por que de você nunca ter visto isso acontecer com outra jovem… Será por que os demônios não tinham a oportunidade certa talvez?... Quem sabe…</p>
+
+           <p> Você está em uma igreja. Você reza para seu Deus, perguntando-se porque nasceu no papel de donzela. Você respeita o plano divino e tal, mas você está curiosa do real propósito disto, você é impaciente, e conhecer um demônio soa excitante, você assimila que seu propósito fosse melhor ser sequestrada de uma vez! Você deixa um bilhete e sai a procura de um demônio, só para, sabe, ver o que acontece.</p>
+            
+           <p> Logo no começo da aventura, um demônio-subordinado aparece na sua frente! Ele parece assustador…</p>
+        <button class="btn-proximo" data-proximo="1.2" id="buttonDonzela">Grite para o heroí vir-lhe salvar</button>
+        <button class="btn-proximo" data-proximo="1.3" id="buttonDonzela">Se apresente ao demônio (Educada)</button>
+    </div>
+    <div class="passo" id="passo-1.2">
+        <img src="Donzela devorada.png" alt="">
+        <p>Você grita mas o herói não aparece… De repente ele pula em você e começa a lhe morder! É doloroso!!
+         Esse seu plano foi muito idiota, você pensa por que não foi mais paciente? Por que teve que procurar por problemas? Foi tudo culpa sua confiar em um demônio que ele não te atacaria… Você acha que é seu castigo por questionar o destino. Mordida após mordida você é devorada, até que não restasse mais nada…</p>
+         <button class="btn-proximo" data-proximo="0" id="buttonDonzela">Reiniciar</button>
+    </div>
+    <div class="passo" id="passo-1.3">
+        <img src="Soberano donzela.png" alt="">
+        <p>Você diz seu nome ao demônio e se apresenta como a donzela do vilarejo. Você diz que estava pensando que talvez fosse mais fácil entender seu papel se você fosse sequestrada pelos demônios o mais rápido possível. O demônio não parece estar prestando atenção, o que é meio irritante. Mas ainda assim ele concorda em levar você até a mestra.        </p>
+         <button class="btn-proximo" data-proximo="1.4" id="buttonDonzela"> Próximo </button>
+    </div>
+    <div class="passo" id="passo-1.4">
+        <img src="Explic sequestro.png" alt="">
+        <p> Depois de uma longa caminhada até o castelo, você é apresentada à soberana! Você explica o motivo de sua vinda e ela te olha com estranho, acontece que a soberana nunca teve planos de sequestrar belas moças ou fazer qualquer coisa que possa agitar os humanos. Você pensa que é ladainha dela, mas não parece que é.. ainda assim, isso não faz sentido para você. Sempre disseram que os demônios eram terríveis, e então um herói viria ao resgate! Você não crê que metiram esse tempo todo. A soberana na verdade é super bondosa! “volte para casa e não se preocupe tanto com o destino.”
+            Ela faz parecer tão fácil, ela parece ser o oposto de você, você quer saber mais sobre ela e como ela pensa! Você insiste em ficar para conversar mais! a soberana, novamente manda você cair fora. Quer rude, você acabou de chegar!</p>
+         <button class="btn-proximo" data-proximo="1.5" id="buttonDonzela">Obedeça</button>
+         <button class="btn-proximo" data-proximo="1.6" id="buttonDonzela">Se recuse a ir</button>
+    </div>
+    <div class="passo" id="passo-1.5">
+        <img src="Donzela queimada.png" alt="">
+        <p>Você não quer causar problemas, então decide voltar, você dá um abraço caloroso em sua nova amiga e sai de seus aposentos. No caminho você encontra um herói, ele não acredita em sua história que os demônios são bondosos, e você volta para o vilarejo. Ninguém acreditou em você e falam que você se aliou com os demônios, e te queimam na fogueira. Que morte terrível…        </p>
+         <button class="btn-proximo" data-proximo="0" id="buttonDonzela">Reiniciar</button>
+    </div>
+    <div class="passo" id="passo-1.6">
+        <img src="Heroi chega donz.png" alt="">
+        <p>Você diz que não vai a lugar nenhum, você ainda quer cumprir seu destino. Ela fica frustrada com sua teimosia, mas deixa você ficar. Vocês compartilham várias histórias juntas. “os demônios não são tão maus assim…”. A soberana até diz que pede aos servos evitarem vilarejos, ela não quer ter a desculpa de mandar um herói atrás deles. Mesmo que ela te sequestre, você acha esse lugar mais interessante do que o velho vilarejo, você se sente livre. Passar o tempo com ela foi muito bom,  você sente borboletas no estômago.
+            Enquanto vocês conversam, o herói entra no quarto. Ele deve ter vindo te buscar, confuso o herói pergunta o que está acontecendo. Você explica que nunca esteve em perigo, e que deixou até um bilhete, poxa vida, ninguém leu… Ele pergunta se você vai voltar ao vilarejo.</p>
+         <button class="btn-proximo" data-proximo="1.7" id="buttonDonzela">você aceita ir</button>
+         <button class="btn-proximo" data-proximo="1.8" id="buttonDonzela">você olha para a soberana com olhar de tristeza pois quer ficar
+        </button>
+    </div>
+    <div class="passo" id="passo-1.7">
+        <img src="Final ruim donz.png" alt="">
+        <p>Vocês saem e você se despede da sua nova amiga. Perto da entrada,você ouve um grupo de demônios rebeldes tramando matar a soberana. Você precisa avisa-la!! Os demônios te avistam e todos correm ao quarto da soberana, não da tempo de explicar então você avisa que querem matar ela. Logo as portas se fecham, os 3 presos tentam escapar… Mas logo quarto é incendiado, você reza, mas não tem o que fazer, não existe salvação para vocês, todos são consumidos nas chamas</p>
+         <button class="btn-proximo" data-proximo="0" id="buttonDonzela">Reiniciar</button>
+    </div>
+    <div class="passo" id="passo-1.8">
+        <img src="Longa conversa.png" alt="">
+        <p>A soberana interrompe e te pergunta se quer ir mesmo, mas antes que você responda o herói entende que a soberana quer te aprisionar e vai te proteger, a soberana ataca o herói sem chances dele sair. Você fica horrorizada. Mas agora você se tornou propriedade da soberana… Você não fica incomoda em ficar, mas acha que o final do herói foi sua culpa e foi trágico ele morrer assim… 
+            Com o tempo vocês se tornam inseparáveis e a soberana um dia abre o jogo para você. </p>            
+         <button class="btn-proximo" data-proximo="1.9" id="buttonDonzela">você interrompe ela e diz que tudo está ótimo do jeito que está.</button>
+         <button class="btn-proximo" data-proximo="1.10" id="buttonDonzela">você deseja escutar</button>
+        </div>
+    <div class="passo" id="passo-1.9">
+        <img src="Donz fica com sob p sempre.png" alt="">
+        <p>Ela então não revela sua verdade e vocês neste mundinho imaginário convivem felizes, você se sente livre e feliz com ela. Até os heróis tentarem te resgatar e sempre fracassando e morrendo, você se torna a princesa dos demônios, se torna uma matadora de heróis pois decide ficar aliada de sua amiga para sempre! E vocês vivem felizes para sempre… Fim?</p>
+         <button class="btn-proximo" data-proximo="0" id="buttonDonzela">Fim? Sim.. (Reiniciar)</button>
+         <button class="btn-proximo" data-proximo="1.8" id="buttonDonzela">Fim? Não.. tem algo faltando...</button>
+    </div>
+    <div class="passo" id="passo-1.10">
+        <img src="Revelação sob.png" alt="">
+        <p>“Nesse mundo... não existem demônios. ou até mesmo heróis. Mas EXISTIA uma garota com vontade de sair e cumprir um tipo de destino. Essa parte era verdade. Ela conheceu alguém. Outra garota.. ha ha ha... um tema recorrente, não é? a donzela e a soberana. As duas eram inseparáveis. E por um tempo... tudo foi fantástico. Mas suas famílias, as comunidades de onde vieram... nenhuma aprovava a relação delas. Essa é a realidade de muitos. Esse par não era diferente…apesar de seus esforços, o mundo parecia determinado a separá-las. Ela... não, nós… Nós costumávamos gostar do tipo de história em que o amor sempre vence. Onde a força do amor pode vencer qualquer dificuldade e tudo acaba bem no final. Eu perdi ela. E então eu abri esse teatro, huh…?”        </p>
+         <button class="btn-proximo" data-proximo="1.11" id="buttonConjunto">próximo </button>
+    </div>
+    <div class="passo" id="passo-1.11">
+        <img src="Cena eu te amo.png" alt="">
+        <p>"eu estava esperando encontrar você. já faz muito tempo…”(A Donzela se revela e seu personagem se esvai e sua personalidade de jogador da “garota perdida” é dominante). “Eu achei que nunca mais veria você…”. "Você sempre pensa nos piores finais. Eu não estava para desistir só porque as coisas estavam difíceis.”. "Por que você não se revelou antes? eu me sinto tão idiota…”. "Eu posso dizer o mesmo a você. Você sabe que eu nunca resistiria a dar um final feliz para as suas histórias… Então é claro que eu fui atraída para um lugar como esse.”. “Eu nunca pensei que daria certo!.” “Ha ha ha... as vezes as coisas REALMENTE acabam bem no final.”. "obrigada por me lembrar disso… eu te amo..”. “Ha ha, eu também te amo!” Agora de verdade, todos podem viver felizes para sempre.        </p>
+         <button class="btn-proximo" data-proximo="1.12" id="buttonConjunto">Final Verdadeiro</button>
+    </div>
+    <div class="passo" id="passo-1.12">
+        <img src="Final V.png" alt="">
+        <p>Final verdadeiro</p>
+        <p>Obrigada por jogar!</p>
+         <button class="btn-proximo" data-proximo="0" id="buttonFim">Jogar com outro personagem</button>
+    </div>
+
+
+
+    <div class="passo" id="passo-soberana 2">
+        <img src="Começo sob.png" alt="">
+        <p>Você é a soberana. você vive em um castelo cercada de demônios-serviçais. Na sua opinião, é uma vida bem aconchegante. Exceto pelos humanos incomodativos que ficam matando membros do seu exército. Existe até um papel chamado "herói" cujo único propósito na vida é derrotar você!
+            que negócio é esse? você sempre evita causar problemas para os humanos na esperança de que eles vão deixar vocês em paz, mas eles nunca deixam para ser sincera, você ainda é meio nova nesse negócio de soberana, você não entende bem toda a politicagem envolvida com o cargo. Mas, você se lembra de que todos só estão tentando cumprir seus papéis, você não vai deixar que forcem você a ser a soberana maligna que eles esperam. Você acha que é bem legal e maduro ter padrões tão altos em relação a esse negócio todo. </p>
+         <button class="btn-proximo" data-proximo="2.1" id="buttonSoberana" >Próximo</button>
+    </div>
+    <div class="passo" id="passo-2.1">
+        <img src="Subord pede folga.png" alt="">
+        <p>Um dos seus subordinados entra nos seus aposentos, interrompendo o seu raciocínio sobre como você é incrível. Ele está reclamando sobre como é chato ficar parado protegendo o portão do castelo o dia todo…especialmente porque ninguém nem chega perto do portão. Você entende o que ele quer dizer, mas é a forma como ele está reclamando que incomoda você,...        </p>
+         <button class="btn-proximo" data-proximo="2.2" id="buttonSoberana" >mandar ele trabalhar </button>
+         <button class="btn-proximo" data-proximo="2.3" id="buttonSoberana" >dar o dia de folga para ele</button>
+    </div>
+    <div class="passo" id="passo-2.2">
+        <img src="Da uma bronca no subord.png" alt="">
+        <p>Você dá um sermão sobre responsabilidade e questionar seus superiores. Seus servos tem que fazer o que você manda, gostando ou não! Ele parece bem infeliz com isso, mas você sabe que ele vai agradecer no futuro, se afastar muito do castelo sempre acaba em morte. Você manda o subordinado embora e deita na sua grande e confortável cama de soberana. Dar um sermão deixou você com sono. Você acaba dormindo bem rápido, só mais um dos seus incríveis talentos de soberana.</p>
+         <button class="btn-proximo" data-proximo="2.4" id="buttonSoberana" >Próximo </button>
+    </div>
+    <div class="passo" id="passo-2.3">
+        <img src="Da folga pro subord.png" alt="">
+        <p> Você diz que ele pode fazer uma pausa e sair um pouco da atmosfera sufocante do castelo paгa refrescar sua alma sombria. Um dia de folga não faz mal. Ele agradece e sai feliz para fazer só Deus sabe o que. Você não tem muito mais o que fazer hoje, então você decide tirar um cochilo. Ser soberana realmente é incrível.</p>
+         <button class="btn-proximo" data-proximo="2.4" id="buttonSoberana" >Próximo </button>
+    </div>
+    <div>
+        <div class="passo" id="passo-2.4">
+            <img src="Convidada.png" alt="">
+            <p>Você acorda com uma batida na porta. O subordinado de antes trouxe companhia! Você pensou ter mandado esse subordinado fazer o trabalho dele, e não, trazer estranhos para o seu quarto. parece que ele saiu do posto sem permissão. Você dá um sermão nele, mas você até que está interessada em falar com a convidada, então você deixa ele ir. Esse subordinado não é tão mal.</p>
+             <button class="btn-proximo" data-proximo="2.5" id="buttonSoberana" > Próximo </button>
+        </div>
+        <div class="passo" id="passo-2.5">
+            <img src="Nao entende o plano da donz, sob.png" alt="">
+            <p>É uma donzela do vilarejo humano mais próximo, ela diz que seu papel é ser sequestrada por você. A donzela diz como ela estava impaciente pensando em seu sequestro iminente e decidiu agilizar as coisas um pouco. Você aprecia a honestidade dela, mas sente muito em informar que você nunca teve planos de sequestrar qualquer humano. Ela parece bastante desapontada. Você acha que esse mundo é focado demais em destino e tal. “Vá para casa e pare de se preocupar com isso”, você diz. Ela insiste em ficar para conversar mais. Você sente um calor dentro de você quando ela olha nos seus olhos, é a primeira vez que um humano olha para você sem nojo. Você pensa no que dizer… </p>
+             <button class="btn-proximo" data-proximo="2.6" id="buttonSoberana" >Diga que é melhor que ela vá para casa (antissocial)</button>
+             <button class="btn-proximo" data-proximo="2.7" id="buttonSoberana" >Deixe que ela fique por um tempo</button>
+        </div>
+        <div class="passo" id="passo-2.6">
+            <img src="Subord mata sob.png" alt="">
+            <p>A Donzela muito educada lhe obedece, te da um abraço caloroso e vai embora. Você se sente feliz com a visita dela, mas está na sua hora da soneca. Então você se deita e dorme. Enquanto dorme você sente uma dor infernal em seu peito, você acorda desesperada
+                É o subordinado que estava em seus aposentos agora pouco!!! Ele está arrancando sua pele e te matando rapidamente, você está fraca demais para reagir, você se enche de raiva por ser uma soberana que fez de tudo pelo seu povo e ele te apunhala desta maneira, pedaço a pedaço sua consciência se esvai e você morre morta nas mãos do subordinado.</p>
+             <button class="btn-proximo" data-proximo="0" id="buttonSoberana" >Reiniciar</button>
+        </div>
+        <div>
+            <div class="passo" id="passo-2.7">
+                <img src="Longo papo sob.png" alt="">
+                <p> Você não pode mandar essa donzela embora agora, ela acabou de chegar!vocês têm uma longa conversa, compartilhando histórias de todos os tipos. Ela diz que está surpresa por demônios não agirem como ela esperava. Você diz que fica feliz por ela ter uma mente tão aberta para esse tipo de coisa. Você também diz que sempre manda seu exército euitar humanos, você não quer agitá-los e acabar com um herói vindo atrás de você - "isso explica porque as pessoas do vilarejo nunca foram feridas... é porque você deu a ordem, não é? estamos muito agradecidos!”.
+                    Você fica surpresa com o agradecimento. Você sempre pensou que humanos fossem violentos e cruéis. É por isso que seus servos sempre acabam mortos, mesmo você tentando manter eles longe dos humanos. Mas... essa donzela é diferente. Você não sabe dizer se ela gosta de você ou não. </p>
+                    <button class="btn-proximo" data-proximo="2.8" id="buttonSoberana" >Próximo </button>
+            </div>
+            <div class="passo" id="passo-2.8">
+                <img src="Heroi chega sob.png" alt="">
+                <p>Você é interrompida por outro humano entrando pela sua porta, dessa vez é um herói. Ele diz estar procurando por uma donzela, que dizem ter sido sequestrada por alguém da sua espécie. "Sequestrada? de forma alguma! eu só queria conhecer a soberana. ninguém leu o bilhete que eu deixei?”. Depois da explicação, o herói diz que está aliviado em saber que foi tudo um mal-entendido e que nada de mal aconteceu. A donzela pede desculpas pelo transtorno e o herói pede que ela volte para o vilarejo com ele. Um sentimento confuso invade o seu coração, é surpreendente que você tenha um desses para começo de conversa. Você não quer que o herói leve a donzela para longe de você.                </p>
+                 <button class="btn-proximo" data-proximo="2.9" id="buttonSoberana" >Mantenha ela aqui(possessiva)</button>
+                 <button class="btn-proximo" data-proximo="2.10" id="buttonSoberana" >Deixe que vão</button>
+            </div>
+            <div class="passo" id="passo-2.9">
+                <img src="Sob recusa deixar donzela ir.png" alt="">
+                <p>A donzela veio ser sequestrada por você, não é? você vai tornar esse desejo realidade…A donzela te olha com um semblante que não quer te deixar também, você interrompe a Donzela de dizer sim ou não e pergunta se ela quer ir mesmo. Mas antes que a Donzela responda, "se você não vai deixar ela ir... talvez os demônios sejam realmente malignos, e se você for, eu serei forçado a derrotá-la.”. Você não tem escolha, você destrói o herói antes que ele possa roubar a sua donzela. A Donzela fica horrorizada. Ela não achava o castelo melhor do que o vilarejo? Ela queria ficar aqui com você, o herói estava tentando levá-la embora, você tinha que matá-lo. Agora ela não tem mais que voltar! Você vai manter essa donzela segura para sempre.                 </p>
+                 <button class="btn-proximo" data-proximo="2.12" id="buttonSoberana" >Próximo</button>
+            </div>
+            <div class="passo" id="passo-2.10">
+                <img src="Donz vai te avisar.png" alt="">
+                <p> Você tem certeza de que ela vai voltar para passar mais tempo com você, você decide confiar nela. Agora que o herói e a donzela se foram, você deita na sua confortável e luxuosa cama de soberana. Seu quarto parece vazio. Isso é solidão? Você espera que sua nova amiga volte logo, você fecha os olhos por um momento. Você estava quase dormindo quando a donzela e o herói invadem o seu quarto, freneticamente tentando comunicar alguma coisa para você. Eles dizem que um grupo de demônios está tentando assassinar você! Você não está supresa, mas é bom saber que eles se importam. Você não tem dúvida de que as ambições dos seus subordinados resultariam em uma tentativa de roubar o seu trono. De repente as portas se fecham. Você, a donzela, o herói estão trancados no quarto.                 </p>
+                 <button class="btn-proximo" data-proximo="2.11" id="buttonSoberana" >Próximo </button>
+            </div>
+            <div class="passo" id="passo-2.11">
+                <img src="Final ruim sob.png" alt="">
+                <p>Em um instante, tudo está pegando fogo. O herói começa a bater na porta, jurando matar todos os demônios que estão do outro lado. Mas você deveria ter esperado isso de um bando de demônios idiotas. Então é assim que você morre. queimada viva em seu próprio quarto, traída por quem você pensou que podia confiar. Você vê a donzela chorando. Por que ela deve morrer por algo que não tem nada haver com ela? Talvez ela tenha sido amaldiçoada no momento em que ela falou com você. Você pensa se você também é amaldiçoada, e se enche de raiva e tristeza. Vocês todos vão queimar juntos.                </p>
+                 <button class="btn-proximo" data-proximo="0" id="buttonSoberana" >Reiniciar</button>
+            </div>
+            <div class="passo" id="passo-2.12">
+                <img src="Sob mata herói.png" alt="">
+                <p>Aos poucos ela se acalma, a Donzela não parece mais assustada com a cena, mas com um semblante ainda culpa pela morte do herói. Com o tempo vocês se tornam inseparáveis e você decide que é o momento de contar uma história para ela..                </p>
+                 <button class="btn-proximo" data-proximo="2.13" id="buttonSoberana" >A Donzela interrompe e diz que tudo está bom como está </button>
+                 <button class="btn-proximo" data-proximo="1.10" id="buttonSoberana" >Donzela decide ouvir sua história</button>
+            </div>
+            <div class="passo" id="passo-2.13">
+                <img src="Donz fica com sob p sempre.png" alt="">
+                <p>Você entende a escolha da Donzela e não conta a verdade… e neste mundinho imaginário convivem felizes, você consegue ver que a Donzela se sente mais livre e feliz convivendo com você. Até os heróis tentarem resgatar ela e sempre fracassando e morrendo. Você então nomeia a Donzela de “A princesa dos demônios”, e aos poucos ela se torna uma matadora de heróis e decide ser sua aliada para sempre! Você se sente desconfortável por transformar uma jovem tão doce e bondosa em uma assassina de sua própria espécie, mas gosta de como tudo está fluindo, e vocês vivem felizes e juntas… Fim?...                </p>
+                 <button class="btn-proximo" data-proximo="0" id="buttonSoberana" >Fim? Sim.. (Reiniciar)</button>
+                 <button class="btn-proximo" data-proximo="2.12" id="buttonSoberana" >Fim? Não! (voltar alguns passos)</button>
+            </div>
+
+    <div>
+
+
+
+    
+    <div class="passo" id="passo-heroi 3">
+        <img src="Heroi começo.png" alt="">
+        <p> Você é o herói, você gosta de pensar em si mesmo como uma pessoa boa e em quem outros podem confiar. Você foi avisado de que uma donzela do seu vilarejo foi sequestrada e provavelmente está sendo mantida no castelo da demônio-soberana. Você fica feliz em proteger as pessoas do vilarejo. Você nasceu para esse papel! Mas fica se perguntando quem constrói um vilarejo tão perto da base de um exército de demônios? você não consegue entender. Você decide sair em uma nova aventura para resgatar a donzela… Mas soldados-demônio estão no seu caminho! você poderia matá-los e ganhar experiência.</p>
+         <button class="btn-proximo" data-proximo="3.1" id="buttonHeroi">Extermine as criaturas com bravura</button>
+         <button class="btn-proximo" data-proximo="3.2" id="buttonHeroi"> Fuja como um covarde</button>
+    </div>
+    <div class="passo" id="passo-3.1">
+        <img src="Heroi morre pelo subord.png" alt="">
+        <p> Você ainda não teve experiências de combate e é vencido contra os demônios, que trágico… um herói sem poder na espada, seu peito se enche de decepção e tristeza, rapidamente você morre nas mãos dos soldados da soberana…</p>
+         <button class="btn-proximo" data-proximo="0" id="buttonHeroi">Reiniciar</button>
+    </div>
+    <div class="passo" id="passo-3.2">
+        <img src="Heroi fugiu.png" alt="">
+        <p> Abrindo mão de seu orgulho, você escapa com vida. Mas você não pode voltar para casa. sua reputação seria arruinada! Você tenta pensar em como você vai conseguir salvar a donzela sozinho se você não consegue nem vencer alguns demônios fracotes. indo em direção ao castelo da soberana, você adentra sua fortaleza.</p>
+         <button class="btn-proximo" data-proximo="3.3" id="buttonHeroi">Próximo</button>
+    </div>
+    <div class="passo" id="passo-3.3">
+        <img src="Heroi chega na conversa.png" alt="">
+        <p> Logo se depara com donzela e soberana conversando tranquilamente, “esta é a Donzela que eu tenho que resgatar? Ela não sabe que isto é perigoso!?”. Confuso você pergunta o que está acontecendo. A donzela diz que os demônios não tem nenhum plano diabólico de destruir o vilarejo ou machucar os habitantes, e diz que deixou um bilhete e fica frustrada que ninguém leu.
+            Você pergunta para a donzela se ela vai voltar ao vilarejo com você, mesmo que você não tenha de fato resgatado ela, você ainda vai ser paparicado por voltar com vida e com a donzela, você enche o peito de felicidade e determinação.</p>
+         <button class="btn-proximo" data-proximo="3.4" id="buttonHeroi">Donzela quer ficar</button>
+         <button class="btn-proximo" data-proximo="3.5" id="buttonHeroi">Donzela vai com você</button>
+    </div>
+    <div class="passo" id="passo-3.4">
+        <img src="Heroi morre pela sob.png" alt="">
+        <p> A soberana interrompe a donzela e pergunta se ela quer ir mesmo. Você entende que a soberana quer aprisionar a donzela, você se enche de coragem e vai pra cima da soberana, mas você não tem chances com uma soberana, o que você estava pensando? Não conseguiu nem lutar com os subordinados, imagine com a própria rainha?! Você é perfurado pelas garras da soberana e frustrado sua visão vai escurecendo e você morre fracassado e frustrado com sua missão falha. </p>
+         <button class="btn-proximo" data-proximo="0" id="buttonHeroi">Reiniciar</button>
+    </div>
+    <div class="passo" id="passo-3.5">
+        <img src="Heroi final ruim.png" alt="">
+        <p> A donzela se despede da sua nova amiga, e vocês saem. Perto de sairem, a donzela fe para pois ela ouve um grupo de demônios rebeldes tramando matar a soberana. A donzela pede pra você que ela precisa avisa-la!! Os demônios os avistam e vocês correm ao quarto da soberana, não da tempo de explicar, então a donzela esclarece a revolução. De repente as portas se fecham, os 3 presos juntos tentam escapar… Você puxa sua espada e tenta abrir as portas, mas sua espada quebra. E em seguida o quarto é incendiado, você com a boca amarga se arrepende de ter ido junto da donzela, pensa se elas não estão agindo juntas para te matar.. não existe salvação para você, todos são consumidos nas chamas. E você morre imaginando ser traído e pensando que ambas sobreviveram… mas não é bem isso que aconteceu..</p>
+         <button class="btn-proximo" data-proximo="0" id="buttonHeroi">Reiniciar</button>
+    </div>
+   
+  
+
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>

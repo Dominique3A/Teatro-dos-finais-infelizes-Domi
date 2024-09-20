@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(35, 35, 35) ;
+    color: white;
+    font-family: "Squada One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:480px;
+    margin-top: 150px;
+    font-size: 30px;
+
+}
+
+/* button{
+   background-color: rgba(0, 0, 0, 0.205);
+   color: white;
+   font-family: "Squada One", sans-serif;
+   font-size: 50px;
+   margin: 10px;
+} */
+
+.passo{
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 100%;
+}
+
+img{
+    max-width: 80%;
+}
+
+.passo{
+    color:beige
+}
+
+#buttonDonzela{
+    background-color: #5745c7;
+    color: white;
+    font-family: "Squada One", sans-serif;
+    font-size: 50px;
+    margin: 10px;
+}
+
+#buttonFim{
+    background-color: #262626;
+    color: white;
+    font-family: "Squada One", sans-serif;
+    font-size: 50px;
+    margin: 10px;
+}
+
+#buttonHeroi{
+    background-color: #E35E00;
+    color: white;
+    font-family: "Squada One", sans-serif;
+    font-size: 50px;
+    margin: 10px;
+}
+
+#buttonSoberana{
+    background-color:#EA0F66;
+    color: white;
+    font-family: "Squada One", sans-serif;
+    font-size: 50px;
+    margin: 10px;
+}
+
+#buttonConjunto{
+    background-color: #ab45c7;
+    color: white;
+    font-family: "Squada One", sans-serif;
+    font-size: 50px;
+    margin: 10px;
+}
